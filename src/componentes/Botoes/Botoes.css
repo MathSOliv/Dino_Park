@@ -1,0 +1,6 @@
+.botoes{
+    display: flex;
+    height: 100%;
+    margin-left: auto;
+    margin-right: 25px;
+}
