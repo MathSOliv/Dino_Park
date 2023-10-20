@@ -1,0 +1,9 @@
+.dinoDiv{
+    width: 100%;
+}
+.dinoDiv img{
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    max-height: 800px;
+    object-fit: cover;
+}

@@ -5,7 +5,9 @@ const Sections = (props) => {
     const newId = `${props.id}`
 
     return(
-        <section id={newId}></section>
+        <section id={newId}>
+            {props.children}
+        </section>
     )
 }
 
