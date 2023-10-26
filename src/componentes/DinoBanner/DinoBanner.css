@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+#section_1{
+    width: 100%;
+}
 .dinoDiv{
     width: 100%;
 }
@@ -6,4 +10,35 @@
     aspect-ratio: 3 / 2;
     max-height: 800px;
     object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: -9999;
+}
+.banner_text{
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    max-height: 800px;
+    display: flex;
+}
+.text{
+    width: 500px;
+    margin: auto 20px auto auto ;
+    background-color: rgba(0, 0, 0, 0.719);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.text p{
+    font-family: 'Kanit', sans-serif;
+    margin: auto;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 768px){
+    .text{
+        width: 80%;
+        margin: auto auto 20px auto;
+        font-size: 30px;
+    }
 }
