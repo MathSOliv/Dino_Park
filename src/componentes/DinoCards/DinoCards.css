@@ -1,0 +1,17 @@
+.DinoCard{
+    width: 350px;
+    overflow: hidden;
+    border-radius: 10%;
+}
+.DinoCard img{
+    width: 100%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.DinoStats{
+    width: 350px;
+    height: 70px;
+    background-color: white;
+    position: absolute;
+    top: -10px;
+}

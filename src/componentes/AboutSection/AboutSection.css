@@ -1,0 +1,23 @@
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+.AboutContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.AboutInfo{
+    width: 75%;
+    margin: 20px auto;
+    display: flex;
+}
+@media screen and (max-width: 1000px){
+    .AboutInfo{
+        flex-direction: column;
+        width: 90%;
+    }
+    .AboutTextDiv{
+        width: 100%;
+    }
+}

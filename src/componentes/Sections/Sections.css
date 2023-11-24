@@ -4,6 +4,17 @@
 }
 #section_2{
     width: 100%;
-    height: 700px;
-    background-color: blue;
+    background-color: #E7DCD0;
+    display: flex;
+    flex-direction: column;
+}
+#section_3{
+    width: 100%;
+    background-color: #007119;
+    height: 750px;
+    display: flex;
+}
+#section_3 h2{
+    color: white;
+    margin: 50px auto;
 }

@@ -1,0 +1,10 @@
+.DinoContainer{
+    width: 100%;
+}
+.DinoInfo{
+    width: 75%;
+    height: 80px;
+    margin: auto;
+    background-color: blue;
+    position: relative;
+}

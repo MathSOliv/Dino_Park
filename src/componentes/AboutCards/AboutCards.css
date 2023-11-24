@@ -1,0 +1,30 @@
+.AboutCardContainer{
+    width: 45%;
+    margin: 40px auto;
+    display: flex;
+}
+.AboutCard{
+    width: 350px;
+    margin: auto;
+    border-radius: 20%;
+    overflow: hidden;
+    display: flex;
+    cursor: pointer;
+}
+.AboutCard img{
+    width: 100%;
+    object-fit: fill;
+    transition: transform 0.3s ease;
+}
+.AboutCard:hover img{
+    transform: scale(1.06);
+}
+@media screen and (max-width: 1000px){
+    .AboutCardContainer{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .AboutCard{
+        width: 80%;
+    }
+}

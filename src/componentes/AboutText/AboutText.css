@@ -1,0 +1,17 @@
+.AboutTextDiv{
+    width: 45%;
+    margin: 40px auto;
+    text-align: justify;
+    padding: 5px;
+    display: flex;
+}
+.AboutTextDiv label{
+    margin: auto;
+    font-size: 20px;
+}
+@media screen and (max-width: 1000px){
+    .AboutTextDiv{
+        width: 90%;
+        margin: 10px auto;
+    }
+}
