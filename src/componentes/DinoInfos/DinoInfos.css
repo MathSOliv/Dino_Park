@@ -1,0 +1,11 @@
+.DinoInfoContainer{
+    width: 45%;
+    margin: auto;
+    text-align: justify;
+    padding: 5px;
+}
+.DinoInfoContainer p{
+    margin: auto;
+    font-size: 20px;
+    color: white;
+}
