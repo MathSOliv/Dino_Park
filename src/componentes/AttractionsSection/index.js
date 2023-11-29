@@ -33,10 +33,38 @@ const AttractionsSection = () => {
             period: 'CRETACEO',
             iconLocation: <IoEarthSharp />,
             location: 'ÁSIA',
-            text: `O Velociraptor foi um pequeno dinossauro terópode que viveu durante o período Cretáceo, aproximadamente entre 85 e 80 milhões de anos atrás. Pertencente à família Dromaeosauridae, o Velociraptor era caracterizado por seu corpo ágil, penas emplumadas e garras curvas e afiadas nos pés. Seu nome, "Velociraptor", significa "ladrão veloz".
-                    Era um predador carnívoro e bipede, provavelmente caçando em grupos para derrubar presas maiores. Apesar de sua fama adquirida através da cultura popular, é importante notar que o Velociraptor era significativamente menor do que muitas representações cinematográficas sugerem, com uma altura média de cerca de 0,5 metros na altura do quadril e um comprimento total de cerca de 2 metros.
-                    Fósseis de Velociraptor foram encontrados principalmente na Mongólia e na China. Sua descoberta e estudo contribuíram significativamente para nossa compreensão da evolução e comportamento dos dinossauros terópodes.`,
+            text: `O Velociraptor foi um pequeno dinossauro terópode que viveu durante o período Cretáceo, 
+                    aproximadamente entre 85 e 80 milhões de anos atrás. Pertencente à família Dromaeosauridae, 
+                    o Velociraptor era caracterizado por seu corpo ágil, penas emplumadas e garras curvas e afiadas nos pés. 
+                    Seu nome, "Velociraptor", significa "ladrão veloz".
+                    Era um predador carnívoro e bipede, provavelmente caçando em grupos para derrubar presas maiores. 
+                    Apesar de sua fama adquirida através da cultura popular, 
+                    é importante notar que o Velociraptor era significativamente menor do que muitas representações cinematográficas sugerem, 
+                    com uma altura média de cerca de 0,5 metros na altura do quadril e um comprimento total de cerca de 2 metros.
+                    Fósseis de Velociraptor foram encontrados principalmente na Mongólia e na China. 
+                    Sua descoberta e estudo contribuíram significativamente para nossa compreensão da evolução e comportamento dos dinossauros terópodes.`,
             image: '/imagens/velociraptor.jpg'
+        },
+
+        {   
+            name: 'TRICERATOPS HORRIDUS',
+            iconMeal: <TbMeat />,
+            meal: 'HERBÍVORO',
+            iconPeriod: <RiMapPinTimeLine />,
+            period: 'CRETACEO',
+            iconLocation: <IoEarthSharp />,
+            location: 'AMÉRICA DO NORTE',
+            text: `O Triceratops foi um dinossauro herbívoro que viveu durante o final do período Cretáceo, 
+                    cerca de 68 a 66 milhões de anos atrás. 
+                    Ele pertencia à família dos ceratopsídeos e é conhecido por suas distintas três cristas no topo do crânio, 
+                    daí o nome "Triceratops", que significa "rosto com três chifres". 
+                    Esses chifres eram utilizados principalmente para defesa contra predadores e, 
+                    possivelmente, em rituais de exibição entre os próprios Triceratops.
+                    O Triceratops era um quadrúpede robusto, com um corpo grande e pesado. 
+                    Sua cabeça era alongada, com um bico córneo na parte frontal, semelhante ao bico de um papagaio. 
+                    A função exata desses bicos ainda é objeto de estudo, 
+                    mas acredita-se que eram utilizados para arrancar folhas e ramos de plantas.`,
+            image: '/imagens/triceratops.jpg'
         }
     ]
 
