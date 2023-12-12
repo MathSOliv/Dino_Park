@@ -11,9 +11,9 @@ const Botoes = () => {
   
     return (
       <div className="botoes">
-        <Botao onClick={() => scrollToSection('#section_1')}>SOBRE</Botao>
-        <Botao onClick={() => scrollToSection('#section_2')}>ATRAÇÕES</Botao>
-        <Botao>SAIR</Botao>
+        <Botao onClick={() => scrollToSection('#section_1')}>HOME</Botao>
+        <Botao onClick={() => scrollToSection('#section_2')}>SOBRE</Botao>
+        <Botao onClick={() => scrollToSection('#section_3')}>ATRAÇÕES</Botao>
       </div>
     );
   };

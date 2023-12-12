@@ -14,6 +14,12 @@ const Corpo = () => {
                 <AboutSection/>
             </Sections>
             <Sections id='section_3'>
+                <div className='DinoSkull'>
+                    <img src='/imagens/DinoSkull.png' alt='DinoSkull'></img>
+                </div>
+                <div className='VelociraptorSkeleton'>
+                    <img src='/imagens/VelociraptorSkeleton.png' alt='VelociraptorSkeleton'></img>
+                </div>
                 <AttractionsSection/>
             </Sections>
         </div>    

@@ -12,8 +12,9 @@
     width: 100%;
     background-color: #007119;
     display: flex;
+    position: relative;
 }
 #section_3 h2{
     color: white;
-    margin: 50px auto;
+    margin: 80px auto 50px auto;
 }
