@@ -7,3 +7,9 @@
     position: relative;
     display: flex;
 }
+@media screen and (max-width: 1000px){
+    .DinoInfo{
+        flex-direction: column;
+        width: 90%;
+    }
+}

@@ -85,3 +85,18 @@
     font-weight: bold;
     margin: 5px auto;
 }
+
+@media screen and (max-width: 1000px){
+    .DinoCardContainer{
+        width: 100%;
+    }
+    .DinoCard{
+        width: 90%;
+    }
+    .DinoStats{
+        width: 90%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        left: 50.01%;
+    }
+}

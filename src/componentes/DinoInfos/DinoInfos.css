@@ -9,3 +9,9 @@
     font-size: 20px;
     color: white;
 }
+@media screen and (max-width: 1000px){
+    .DinoInfoContainer{
+        width: 90%;
+        margin-top: 25px;
+    }
+}

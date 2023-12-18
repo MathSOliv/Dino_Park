@@ -129,7 +129,16 @@ const AttractionsSection = () => {
                     <>
                         {data.map(( item, index ) => (
                             <div className='DinoInfo' key={index}>
-                                <DinoCards/>
+                                <DinoCards
+                                    image={item.image}
+                                    name={item.name}
+                                    iconMeal={item.iconMeal}
+                                    meal={item.meal}
+                                    iconPeriod={item.iconPeriod}
+                                    period={item.period}
+                                    iconLocation={item.iconLocation}
+                                    location={item.location}
+                                />
                                 <DinoInfos text={item.text} />
                             </div>
                         ))}

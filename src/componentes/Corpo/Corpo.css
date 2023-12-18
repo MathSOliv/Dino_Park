@@ -1,6 +1,7 @@
 .DinoSkull {
-    width: 120px;
-    height: 100px;
+    width: 15%;
+    min-width: 120px;
+    aspect-ratio: 1 / 1;
     position: absolute;
     top: 110px;
     left: 25px;
@@ -11,12 +12,12 @@
     opacity: 0.4;
 }
 .VelociraptorSkeleton{
-    width: 160px;
-    height: 120px;
+    width: 13%;
+    min-width: 120px;
+    aspect-ratio: 1 / 1;
     position: absolute;
-    top: 330px;
+    top: 680px;
     right: 25px;
-    rotate: -45deg;
 }
 .VelociraptorSkeleton img{
     width: 100%;

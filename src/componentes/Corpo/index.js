@@ -7,12 +7,15 @@ import './Corpo.css'
 const Corpo = () => {
     return(
         <div>
+
             <Sections id='section_1'>
                 <DinoBanner/>
             </Sections>
+
             <Sections id='section_2'>
                 <AboutSection/>
             </Sections>
+
             <Sections id='section_3'>
                 <div className='DinoSkull'>
                     <img src='/imagens/DinoSkull.png' alt='DinoSkull'></img>
@@ -22,6 +25,8 @@ const Corpo = () => {
                 </div>
                 <AttractionsSection/>
             </Sections>
+
+            
         </div>    
     )
 }
